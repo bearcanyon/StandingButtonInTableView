@@ -14,6 +14,9 @@
 		5FE7BFE41D05324B0091A720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE7BFE21D05324B0091A720 /* LaunchScreen.storyboard */; };
 		5FE7BFEF1D05324B0091A720 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7BFEE1D05324B0091A720 /* SampleAppTests.swift */; };
 		5FE7BFFA1D05324B0091A720 /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7BFF91D05324B0091A720 /* SampleAppUITests.swift */; };
+		5FE7C0081D05349C0091A720 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7C0071D05349C0091A720 /* TableView.swift */; };
+		5FE7C00B1D0535470091A720 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7C0091D0535470091A720 /* TableViewCell.swift */; };
+		5FE7C00C1D0535470091A720 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE7C00A1D0535470091A720 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FE7BFD61D05324B0091A720 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE7BFD61D05324B0091A720 /* StandingButtonInTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandingButtonInTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7BFD91D05324B0091A720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE7BFDB1D05324B0091A720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FE7BFDE1D05324B0091A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FE7BFE01D05324B0091A720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FE7BFE31D05324B0091A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE7BFE51D05324B0091A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE7BFEA1D05324B0091A720 /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE7BFEA1D05324B0091A720 /* StandingButtonInTableView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingButtonInTableView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7BFEE1D05324B0091A720 /* SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppTests.swift; sourceTree = "<group>"; };
 		5FE7BFF01D05324B0091A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE7BFF51D05324B0091A720 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE7BFF51D05324B0091A720 /* StandingButtonInTableView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingButtonInTableView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7BFF91D05324B0091A720 /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		5FE7BFFB1D05324B0091A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE7C0071D05349C0091A720 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		5FE7C0091D0535470091A720 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5FE7C00A1D0535470091A720 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +93,9 @@
 		5FE7BFD71D05324B0091A720 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FE7BFD61D05324B0091A720 /* SampleApp.app */,
-				5FE7BFEA1D05324B0091A720 /* SampleAppTests.xctest */,
-				5FE7BFF51D05324B0091A720 /* SampleAppUITests.xctest */,
+				5FE7BFD61D05324B0091A720 /* StandingButtonInTableView.app */,
+				5FE7BFEA1D05324B0091A720 /* StandingButtonInTableView.xctest */,
+				5FE7BFF51D05324B0091A720 /* StandingButtonInTableView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +105,9 @@
 			children = (
 				5FE7BFD91D05324B0091A720 /* AppDelegate.swift */,
 				5FE7BFDB1D05324B0091A720 /* ViewController.swift */,
+				5FE7C0071D05349C0091A720 /* TableView.swift */,
+				5FE7C0091D0535470091A720 /* TableViewCell.swift */,
+				5FE7C00A1D0535470091A720 /* TableViewCell.xib */,
 				5FE7BFDD1D05324B0091A720 /* Main.storyboard */,
 				5FE7BFE01D05324B0091A720 /* Assets.xcassets */,
 				5FE7BFE21D05324B0091A720 /* LaunchScreen.storyboard */,
@@ -128,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FE7BFD51D05324B0091A720 /* SampleApp */ = {
+		5FE7BFD51D05324B0091A720 /* StandingButtonInTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE7BFFE1D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildConfigurationList = 5FE7BFFE1D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableView" */;
 			buildPhases = (
 				5FE7BFD21D05324B0091A720 /* Sources */,
 				5FE7BFD31D05324B0091A720 /* Frameworks */,
@@ -140,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = SampleApp;
+			name = StandingButtonInTableView;
 			productName = SampleApp;
-			productReference = 5FE7BFD61D05324B0091A720 /* SampleApp.app */;
+			productReference = 5FE7BFD61D05324B0091A720 /* StandingButtonInTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FE7BFE91D05324B0091A720 /* SampleAppTests */ = {
+		5FE7BFE91D05324B0091A720 /* StandingButtonInTableViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE7C0011D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleAppTests" */;
+			buildConfigurationList = 5FE7C0011D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableViewTests" */;
 			buildPhases = (
 				5FE7BFE61D05324B0091A720 /* Sources */,
 				5FE7BFE71D05324B0091A720 /* Frameworks */,
@@ -158,14 +167,14 @@
 			dependencies = (
 				5FE7BFEC1D05324B0091A720 /* PBXTargetDependency */,
 			);
-			name = SampleAppTests;
+			name = StandingButtonInTableViewTests;
 			productName = SampleAppTests;
-			productReference = 5FE7BFEA1D05324B0091A720 /* SampleAppTests.xctest */;
+			productReference = 5FE7BFEA1D05324B0091A720 /* StandingButtonInTableView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5FE7BFF41D05324B0091A720 /* SampleAppUITests */ = {
+		5FE7BFF41D05324B0091A720 /* StandingButtonInTableViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FE7C0041D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleAppUITests" */;
+			buildConfigurationList = 5FE7C0041D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableViewUITests" */;
 			buildPhases = (
 				5FE7BFF11D05324B0091A720 /* Sources */,
 				5FE7BFF21D05324B0091A720 /* Frameworks */,
@@ -176,9 +185,9 @@
 			dependencies = (
 				5FE7BFF71D05324B0091A720 /* PBXTargetDependency */,
 			);
-			name = SampleAppUITests;
+			name = StandingButtonInTableViewUITests;
 			productName = SampleAppUITests;
-			productReference = 5FE7BFF51D05324B0091A720 /* SampleAppUITests.xctest */;
+			productReference = 5FE7BFF51D05324B0091A720 /* StandingButtonInTableView.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FE7BFD11D05324B0091A720 /* Build configuration list for PBXProject "SampleApp" */;
+			buildConfigurationList = 5FE7BFD11D05324B0091A720 /* Build configuration list for PBXProject "StandingButtonInTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FE7BFD51D05324B0091A720 /* SampleApp */,
-				5FE7BFE91D05324B0091A720 /* SampleAppTests */,
-				5FE7BFF41D05324B0091A720 /* SampleAppUITests */,
+				5FE7BFD51D05324B0091A720 /* StandingButtonInTableView */,
+				5FE7BFE91D05324B0091A720 /* StandingButtonInTableViewTests */,
+				5FE7BFF41D05324B0091A720 /* StandingButtonInTableViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE7BFE41D05324B0091A720 /* LaunchScreen.storyboard in Resources */,
+				5FE7C00C1D0535470091A720 /* TableViewCell.xib in Resources */,
 				5FE7BFE11D05324B0091A720 /* Assets.xcassets in Resources */,
 				5FE7BFDF1D05324B0091A720 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE7BFDC1D05324B0091A720 /* ViewController.swift in Sources */,
+				5FE7C00B1D0535470091A720 /* TableViewCell.swift in Sources */,
+				5FE7C0081D05349C0091A720 /* TableView.swift in Sources */,
 				5FE7BFDA1D05324B0091A720 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		5FE7BFEC1D05324B0091A720 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FE7BFD51D05324B0091A720 /* SampleApp */;
+			target = 5FE7BFD51D05324B0091A720 /* StandingButtonInTableView */;
 			targetProxy = 5FE7BFEB1D05324B0091A720 /* PBXContainerItemProxy */;
 		};
 		5FE7BFF71D05324B0091A720 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FE7BFD51D05324B0091A720 /* SampleApp */;
+			target = 5FE7BFD51D05324B0091A720 /* StandingButtonInTableView */;
 			targetProxy = 5FE7BFF61D05324B0091A720 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,8 +413,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.StandingButtonInTableView;
+				PRODUCT_NAME = StandingButtonInTableView;
 			};
 			name = Debug;
 		};
@@ -412,8 +424,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.StandingButtonInTableView;
+				PRODUCT_NAME = StandingButtonInTableView;
 			};
 			name = Release;
 		};
@@ -424,8 +436,8 @@
 				INFOPLIST_FILE = SampleAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+				PRODUCT_NAME = StandingButtonInTableView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandingButtonInTableView.app/StandingButtonInTableView";
 			};
 			name = Debug;
 		};
@@ -436,8 +448,8 @@
 				INFOPLIST_FILE = SampleAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+				PRODUCT_NAME = StandingButtonInTableView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandingButtonInTableView.app/StandingButtonInTableView";
 			};
 			name = Release;
 		};
@@ -447,7 +459,7 @@
 				INFOPLIST_FILE = SampleAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StandingButtonInTableView;
 				TEST_TARGET_NAME = SampleApp;
 			};
 			name = Debug;
@@ -458,7 +470,7 @@
 				INFOPLIST_FILE = SampleAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.SampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StandingButtonInTableView;
 				TEST_TARGET_NAME = SampleApp;
 			};
 			name = Release;
@@ -466,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FE7BFD11D05324B0091A720 /* Build configuration list for PBXProject "SampleApp" */ = {
+		5FE7BFD11D05324B0091A720 /* Build configuration list for PBXProject "StandingButtonInTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE7BFFC1D05324B0091A720 /* Debug */,
@@ -475,29 +487,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FE7BFFE1D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+		5FE7BFFE1D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE7BFFF1D05324B0091A720 /* Debug */,
 				5FE7C0001D05324B0091A720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5FE7C0011D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
+		5FE7C0011D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE7C0021D05324B0091A720 /* Debug */,
 				5FE7C0031D05324B0091A720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5FE7C0041D05324B0091A720 /* Build configuration list for PBXNativeTarget "SampleAppUITests" */ = {
+		5FE7C0041D05324B0091A720 /* Build configuration list for PBXNativeTarget "StandingButtonInTableViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FE7C0051D05324B0091A720 /* Debug */,
 				5FE7C0061D05324B0091A720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

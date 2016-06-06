@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        let tableView = TableView(frame: frame, style: .Plain)
+        self.view.addSubview(tableView)
     }
 
     override func didReceiveMemoryWarning() {
