@@ -3,7 +3,7 @@
 //  SampleApp
 //
 //  Created by KumagaiNaoki on 2016/06/06.
-//  Copyright © 2016年 KumagaiNaoki. All rights reserved.
+//  Copyright © 2016年 KumagaiてNaoki. All rights reserved.
 //
 
 import UIKit
